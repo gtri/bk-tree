@@ -18,10 +18,10 @@
  * {@linkplain edu.gatech.gtri.bktree.BkTree BK-trees} offer a simple index of
  * elements in a {@linkplain edu.gatech.gtri.bktree.Metric metric space} that
  * allows for {@linkplain edu.gatech.gtri.bktree.BkTreeSearcher searching} the
- * tree for elements within a certain {@linkplain Metric distance} of the
- * search query with sub-linear efficiency.
+ * tree for elements within a certain {@linkplain edu.gatech.gtri.bktree.Metric
+ * distance} of the search query with sub-linear efficiency.
  *
- * <p>For example, a BK-tree with {@link String} elements and a metric like the
+ * <p>For example, a BK-tree with {@link java.lang.String} elements and a metric like the
  * <a href="http://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance">Damerau–Levenshtein
  * distance</a> can serve as a <a href="http://en.wikipedia.org/wiki/Approximate_string_matching">fuzzy
  * search</a> index.

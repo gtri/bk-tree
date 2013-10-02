@@ -29,11 +29,11 @@ import static java.lang.String.format;
  *
  * <p>Mutating operations are <em>not</em> thread-safe.
  *
- * <p>Whereas the {@linkplain #add(E) mutating methods} are iterative and can
- * thus handle very large trees, the {@link #equals(Object)},
+ * <p>Whereas the {@linkplain #add(Object) mutating methods} are iterative and
+ * can thus handle very large trees, the {@link #equals(Object)},
  * {@link #hashCode()} and {@link #toString()} methods on this class and its
- * {@link Node} implementation are each recursive and as such may not complete
- * normally when called on very deep trees.
+ * {@link BkTree.Node} implementation are each recursive and as such may not
+ * complete normally when called on very deep trees.
  *
  * @param <E> type of elements in this tree
  */
